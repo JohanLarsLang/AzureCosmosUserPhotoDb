@@ -4,6 +4,22 @@
 
 //Göteborg: 180205
 
+/*
+Här är länkarna API'na i molnet: 
+
+
+viewReviewQueue: https://functionapp20180130014117.azurewebsites.net/api/UserPhoto?code=CDrWITzpBW111ea9f2NARVkqaqV34eDKW5uWz2VfWDYpTMWQXpv7IA==&mode=viewReviewQueue&id  
+
+Egen påhittad viewApprovedPhotos: https://functionapp20180130014117.azurewebsites.net/api/UserPhoto?code=CDrWITzpBW111ea9f2NARVkqaqV34eDKW5uWz2VfWDYpTMWQXpv7IA==&mode=viewApprovedPhotos&id 
+
+approve: https://functionapp20180130014117.azurewebsites.net/api/UserPhoto?code=CDrWITzpBW111ea9f2NARVkqaqV34eDKW5uWz2VfWDYpTMWQXpv7IA==&mode=approve&id=Photo.10 
+
+reject: https://functionapp20180130014117.azurewebsites.net/api/UserPhoto?code=CDrWITzpBW111ea9f2NARVkqaqV34eDKW5uWz2VfWDYpTMWQXpv7IA==&mode=reject&id=Photo.11 
+
+approve eller reject på bilder i viewRviewQueue genom att byta ut PhotoId.XX till en PhotoId nummer som finns i kön
+
+*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
